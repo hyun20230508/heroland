@@ -1,5 +1,6 @@
 const searchInput = document.getElementById('search-input');
 const searchButton = document.getElementById('search-button');
+let title = document.getElementById('black-list-h5');
 
 searchInput.addEventListener('keydown', event => {
     if (event.key === 'Enter') {
@@ -41,7 +42,32 @@ const blackList = [
     { uuid: 'b8ujmfRM', memo: '필 마검쩔 사기' },
     { uuid: 'quhzXVJ2', memo: '-LOVE- 마검쩔 사기' },
     { uuid: 'tKafnh29', memo: '돌고래 임티, 카페길드에서 사고침' },
+    { uuid: 'KfIU6mTH', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: '2QNUA5Zz', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'dJYCYju7', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'tFrEMFIE', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'SlfHCjG4', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'IdFSRMUt', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'wfwHmwzF', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: '3lm2GaBs', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'siPV3jLB', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'Rhxw4bKt', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'l8pgmuhK', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'SIfHCjG4', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'SnWnrf8M', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'EcZxrLmF', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'Wsk4ne8Z', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'gWDDAhVi', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'cCIjbIE7', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'stfhGwfZ', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: '8W4i6Xel', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'hFlWrLB1', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'rJRQDVlv', memo: '사유 모름 / 기존 Black List 제보' },
 ];
+
+const blackListLength = blackList.length;
+
+title.textContent = `Black List: ${blackListLength}명 유지 중`
 
 const uuidList = blackList.map((item) => {
     return item.uuid;
