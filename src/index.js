@@ -26,6 +26,7 @@ const searchUuid = () => {
     }
 }
 
+// Black List 목록
 const blackList = [
     { uuid: 'hgTVLh9n', memo: '패드립' },
     { uuid: 'ItNjcIUB', memo: '사유 모름\n(uuid l/I 혼동 가능성 있음)' },
