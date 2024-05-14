@@ -69,6 +69,7 @@ const blackList = [
 ];
 
 const blackListLength = blackList.length;
+console.log(`Black List ${blackListLength}명 유지 중`)
 
 title.textContent = `Black List: ${blackListLength}명 유지 중`
 
