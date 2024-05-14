@@ -64,6 +64,10 @@ const blackList = [
     { uuid: '8W4i6Xel', memo: '사유 모름 / 기존 Black List 제보' },
     { uuid: 'hFlWrLB1', memo: '사유 모름 / 기존 Black List 제보' },
     { uuid: 'rJRQDVlv', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'lVt799CK', memo: '닌자 1대1 아이템 내기 지고 도망침' },
+    { uuid: 'P55MV4FB', memo: '닌자 1대1 아이템 내기 지고 도망침' },
+    { uuid: 'wfwHmwzF', memo: '지존반 4개 사기' },
+    { uuid: 'dJYCYju7', memo: '황금 반지 사기' },
 ];
 
 const blackListLength = blackList.length;
