@@ -66,6 +66,8 @@ const blackList = [
     { uuid: 'P55MV4FB', memo: '닌자 1대1 아이템 내기 지고 도망침' },
     { uuid: 'wfwHmwzF', memo: '지존반 4개 사기' },
     { uuid: 'dJYCYju7', memo: '황금 반지 사기' },
+    { uuid: 'Crsz9vlr', memo: '699스킨 사기, Demon_1' },
+    { uuid: '54FFSYg8', memo: '클로버 팬던트 사기, CMK' },
 ];
 
 const blackListLength = blackList.length;
