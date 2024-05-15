@@ -68,6 +68,7 @@ const blackList = [
     { uuid: 'dJYCYju7', memo: '황금 반지 사기' },
     { uuid: 'Crsz9vlr', memo: '699스킨 사기, Demon_1' },
     { uuid: '54FFSYg8', memo: '클로버 팬던트 사기, CMK' },
+    { uuid: '9hAnZP24', memo: '서다반 사기 타유저 사칭범, 기특한치타' },
 ];
 
 const blackListLength = blackList.length;
