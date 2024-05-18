@@ -71,6 +71,19 @@ const blackList = [
     { uuid: '9hAnZP24', memo: '서다반 사기 타유저 사칭범, 기특한치타' },
     { uuid: 'tztFQjbd', memo: '서다반 사기' },
     { uuid: 'mALNhyvz', memo: '서궤부, 서다반 사기(슬라임 얼망)' },
+    { uuid: '4EEBknWr', memo: '각종 템사기' },
+    { uuid: 'G2bvY4vT', memo: '흑갑 사기' },
+    { uuid: 'xfQERwpA', memo: '패드립으로 신고 들어옴' },
+    { uuid: 'Vpd44vFL', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: '17A4Kg8b', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'HpPUZf5E', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'zfQc9rlV', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'ygGGI2GB', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: '4CaCMXUD', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'Mb1sIJx8', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'HhGpcQZL', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'uG6EWDQI', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'vWaPDPG2', memo: '사유 모름 / 기존 Black List 제보' },
 ];
 
 const blackListLength = blackList.length;
