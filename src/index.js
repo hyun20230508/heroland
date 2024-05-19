@@ -84,6 +84,7 @@ const blackList = [
     { uuid: 'HhGpcQZL', memo: '사유 모름 / 기존 Black List 제보' },
     { uuid: 'uG6EWDQI', memo: '사유 모름 / 기존 Black List 제보' },
     { uuid: 'vWaPDPG2', memo: '사유 모름 / 기존 Black List 제보' },
+    { uuid: 'CRsz9vlr', memo: '실수한 사람이 부활석 개인 부담하는 확정쩔 받는 도중\n부활석 전부 소진 후, 쩔러가 대신 살려줬으나\n부활석 값 먹튀 후 쩔러 사기꾼으로 몰아감.'},
 ];
 
 const blackListLength = blackList.length;
